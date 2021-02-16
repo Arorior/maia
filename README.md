@@ -6,7 +6,7 @@ This page will be updated quite often, like the project itself, so I recommend c
 
 ## Version 1.0
 ### AutoInstaller
-That function will help you install packages without using a console command "pip install ..."
+That function will help you install packages without using a console command "pip install ..."<br/>
 ***Example***
 
     from maia import AutoInstaller
