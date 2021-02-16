@@ -6,8 +6,12 @@ This page will be updated quite often, like the project itself, so I recommend c
 
 ## Version 1.0
 ### AutoInstaller
-That function will help you install packages without using a console command "pip install ..."\n
+That function will help you install packages without using a console command "pip install ..."
 ***Example***
-'''python
-<from maia import AutoInstaller>
-'''
+
+    from maia import AutoInstaller
+    try:
+        import colorama
+    except ImportError:
+       AutoInstaller()
+    print("Hello, AutoInstaller" + colorama.Fore.GREEN)
