@@ -1,8 +1,13 @@
-from maia import AutoInstaller
+from maia import switch
 
-try:
-    import colorama
-except ImportError:
-    AutoInstaller()
-
-print('Hello, AutoInstaller' + colorama.Fore.RED)
+x = 10
+for case in switch(x):
+    if case(0):
+        print('num is 0')
+        break
+    elif case(10):
+        print('num is 10')
+        break
+    else:
+        print('num not in list')
+        break

@@ -6,9 +6,9 @@ except FileNotFoundError:
 
 setup(
     name='py-maia',
-    version='1.1',
+    version='1.5',
     description="Let's code better",
-    packages=['maia',],
+    packages=['maia', ],
     long_description=about,
     license='MIT',
     author='Arorior',
