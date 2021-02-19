@@ -10,6 +10,9 @@ maia
 
 3. Functions
  + [AutoInstaller](#autoinstaller)
+ + [switch & case](#switch--case)
+ + [Loadings & printr](#loadings--printr)
+ + [Photo](#photo)
 
 ## About "maia"
 This python module was created to make code clear and easy.<br/>
